@@ -1,0 +1,4 @@
+__pycache__
+reviews.jsonl
+.pytest_cache
+venv

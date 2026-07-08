@@ -2,3 +2,4 @@ __pycache__
 reviews.jsonl
 .pytest_cache
 venv
+test_reviews.jsonl

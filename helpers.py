@@ -1,7 +1,13 @@
 import requests
 import json
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+key = os.getenv("key")
+
 def get_movie_details(name):
-    link = f"https://www.omdbapi.com/?t={name}&apikey=9ecccaae"
+    link = f"https://www.omdbapi.com/?t={name}&apikey={key}"
     try:
         response = requests.get(link)
         if response.status_code == 200:

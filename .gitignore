@@ -3,3 +3,4 @@ reviews.jsonl
 .pytest_cache
 venv
 test_reviews.jsonl
+.env

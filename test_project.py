@@ -30,6 +30,7 @@ def test_delete_review():
     deleted = delete_review("Interstellar", path)
     assert deleted["movie"]["name"] == "Interstellar"
     assert load_reviews(path) == []
+    assert delete_review("Enola holmes", path) is None
 
 
 def test_get_statistics():

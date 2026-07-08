@@ -1,5 +1,9 @@
 # Movie Review Manager
 
+#### Video Demo: [Movie Review Manager](https://youtu.be/17-JZaNH31M)
+
+#### Description:
+
 A Python-based command-line application that allows you to write, view, and manage movie reviews. The application fetches movie details from the OMDb API and stores reviews in a JSONL (JSON Lines) format for easy persistence and retrieval.
 
 ## Features
